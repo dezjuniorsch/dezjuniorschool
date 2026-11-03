@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us — Dez Junior School</title>
+<meta name="description" content="Get in touch with Dez Junior School — address, phone, email, and a contact form.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="contact">
+
+<header class="site-header">
+  <div class="nav-bar">
+    <a href="index.html" class="brand">
+      <span class="brand-logo"><img src="assets/dez-badge.jpg" alt="Dez Junior School badge"></span>
+      <span class="brand-text">
+        <span class="brand-name">Dez Junior School</span>
+        <span class="brand-sub">Mateete, Uganda</span>
+      </span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html" data-nav="home">Home</a>
+      <a href="about.html" data-nav="about">About Us</a>
+      <a href="academics.html" data-nav="academics">Academic Programs</a>
+      <a href="staff.html" data-nav="staff">Staff Directory</a>
+      <a href="admissions.html" data-nav="admissions">Admissions &amp; Enrollment</a>
+      <a href="contact.html" data-nav="contact">Contact Us</a>
+      <a href="admissions.html" class="nav-cta">Enroll Now</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a> / Contact Us</div>
+      <span class="eyebrow">We'd Love to Hear From You</span>
+      <h1>Get in touch with Dez.</h1>
+      <p>Whether you have a question about admissions, academics, or a general enquiry, our front office is ready to help.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <div>
+          <div class="contact-cards">
+            <div class="contact-card reveal">
+              <div class="ic">⌂</div>
+              <div>
+                <h3>Visit Us</h3>
+                <p>Dezderio Road, off Mateete–Ssembabule Road, Mateete, Uganda</p>
+              </div>
+            </div>
+            <div class="contact-card reveal">
+              <div class="ic">☎</div>
+              <div>
+                <h3>Call Us</h3>
+                <p>+256 700 112 233 · +256 414 987 654</p>
+              </div>
+            </div>
+            <div class="contact-card reveal">
+              <div class="ic">✉</div>
+              <div>
+                <h3>Email Us</h3>
+                <p>info@dezjs.ac.ug</p>
+              </div>
+            </div>
+            <div class="contact-card reveal">
+              <div class="ic">◷</div>
+              <div>
+                <h3>Office Hours</h3>
+                <p>Mon – Fri, 8:00 AM – 5:00 PM · Sat, 9:00 AM – 1:00 PM</p>
+              </div>
+            </div>
+          </div>
+          <div class="map-block reveal">
+            <iframe
+              src="https://www.google.com/maps?q=Dez+Junior+School,+Dezderio+Road,+Mateete,+Uganda&output=embed"
+              width="100%"
+              height="100%"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Map showing Dez Junior School on Dezderio Road, Mateete">
+            </iframe>
+          </div>
+        </div>
+
+        <div class="form-card reveal">
+          <h2 style="font-size:1.4rem;">Send Us a Message</h2>
+          <p style="color:var(--slate);font-size:.92rem;margin-bottom:24px;">Fields marked are required — we typically reply within two working days.</p>
+
+          <div class="form-status" role="status"></div>
+
+          <form data-contact-form novalidate>
+            <div class="form-row">
+              <div class="field">
+                <label for="cf-name">Full name</label>
+                <input type="text" id="cf-name" name="name" autocomplete="name">
+                <span class="field-error">Please tell us your name.</span>
+              </div>
+              <div class="field">
+                <label for="cf-email">Email address</label>
+                <input type="email" id="cf-email" name="email" autocomplete="email">
+                <span class="field-error">Please enter a valid email address.</span>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label for="cf-phone">Phone number</label>
+                <input type="tel" id="cf-phone" name="phone" placeholder="+256 7__ ___ ___" autocomplete="tel">
+              </div>
+              <div class="field">
+                <label for="cf-subject">Who would you like to reach?</label>
+                <select id="cf-subject" name="subject">
+                  <option value="">Select a department</option>
+                  <option value="admissions">Admissions Office</option>
+                  <option value="academics">Academics / Director of Studies</option>
+                  <option value="bursar">Bursar's Office</option>
+                  <option value="general">General Enquiry</option>
+                </select>
+                <span class="field-error">Please choose who you would like to reach.</span>
+              </div>
+            </div>
+            <div class="field">
+              <label for="cf-message">Message</label>
+              <textarea id="cf-message" name="message" placeholder="How can we help?"></textarea>
+              <span class="field-error">Please add a short message (at least 10 characters).</span>
+            </div>
+            <button type="submit" class="btn btn-navy-gold btn-block">Send Message</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow eyebrow--dark">Direct Lines</span>
+          <h2>Department Contacts</h2>
+        </div>
+      </div>
+      <div class="values-grid">
+        <div class="value-card reveal">
+          <h3>Admissions Office</h3>
+          <p>admissions@dezjs.ac.ug<br>+256 700 112 234</p>
+        </div>
+        <div class="value-card reveal">
+          <h3>Bursar's Office</h3>
+          <p>bursar@dezjs.ac.ug<br>+256 700 112 235</p>
+        </div>
+        <div class="value-card reveal">
+          <h3>Director of Studies</h3>
+          <p>studies@dezjs.ac.ug<br>+256 700 112 236</p>
+        </div>
+        <div class="value-card reveal">
+          <h3>Boarding Office</h3>
+          <p>boarding@dezjs.ac.ug<br>+256 700 112 237</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <span class="brand-logo"><img src="assets/dez-badge.jpg" alt="Dez Junior School badge"></span>
+          <span class="brand-text">
+            <span class="brand-name">Dez Junior School</span>
+            <span class="brand-sub">Mateete, Uganda</span>
+          </span>
+        </a>
+        <p>Dezderio Road, off Mateete–Ssembabule Road, Mateete, Uganda. A culture of excellence from Primary One to Primary Seven.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="YouTube">yt</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="academics.html">Academic Programs</a></li>
+          <li><a href="staff.html">Staff Directory</a></li>
+          <li><a href="admissions.html">Admissions &amp; Enrollment</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="admissions.html">Apply Now</a></li>
+          <li><a href="academics.html#departments">Departments</a></li>
+          <li><a href="staff.html">Find a Teacher</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li>Dezderio Road, off Mateete–Ssembabule Road<br>Mateete, Uganda</li>
+          <li>+256 700 112 233</li>
+          <li>info@dezjs.ac.ug</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> Dez Junior School. All rights reserved.</span>
+      <div class="legal-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Site Map</a>
+        <a href="#">Accessibility</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
